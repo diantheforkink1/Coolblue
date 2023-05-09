@@ -772,9 +772,14 @@ input[type="checkbox"] {
     width: 100%;
 }
 
-.gallery__img {
+.gallery-img__container {
+    display: flex;
     width: 100%;
-    padding: 10px 220px;
+    justify-content: center;
+}
+
+.gallery__img {
+    width: 50%;
     box-sizing: border-box;
 }
 
@@ -1748,10 +1753,10 @@ input[type="checkbox"] {
         border: var(--border-dark);
     }
 
-    .searchbar .icon-container {
+    /* .searchbar .icon-container {
         background-color: var(--color-cool-blue);
         border-radius: 0px 3px 3px 0px;
-    }
+    } */
 
     .searchbar .icon.search {
         color: var(--color-white);

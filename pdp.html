@@ -2309,9 +2309,9 @@
                         <use xlink:href="#icon-review"></use>
                     </svg>
                     <a class="divider" href="#">9,4/10 (101 reviews)</a>
-                    <a class="divider" href="#">Toon alle accessoires</a>
-                    <a class="divider" href="#">Apple iPad</a>
-                    <a href="#">Hulp bij je keuze</a>
+                    <a class="divider hide@sm" href="#">Toon alle accessoires</a>
+                    <a class="divider hide@sm" href="#">Apple iPad</a>
+                    <a class="hide@sm" href="#">Hulp bij je keuze</a>
                 </div>
                 <div>
                     
@@ -2321,7 +2321,9 @@
 
             <div class="col-7">
                 <div class="gallery margin-bottom-md">
-                    <img class="gallery__img" src="images/ipad-gallery.avif">
+                    <div class="gallery-img__container margin-bottom-md">
+                        <img class="gallery__img" src="images/ipad-gallery.avif">
+                    </div>
                     <div class="gallery__thumbnail-container">
                         <img class="gallery__thumbnail gallery-thumbnail--selected" src="images/ipad_option.avif">
                         <img class="gallery__thumbnail" src="images/ipad_option.avif">
@@ -2686,7 +2688,7 @@
 
         </section>
 
-        <section class="row margin-bottom-lg">
+        <section class="row margin-bottom-lg hide@sm">
             <h2 class="margin-bottom-sm">Gerelateerde producten</h2>
             <div class="flex">
                 <a class="btn btn--rounded" href="#">Tablets voor films, series & gaming</a>
@@ -2695,6 +2697,37 @@
                 <a class="btn btn--rounded" href="#">Tablets met kindermodus</a>
                 <a class="btn btn--rounded" href="#">Alle Tablets</a>
             </div>
+        </section>
+
+        <section class="row margin-bottom-lg hide@lg">
+            <h2 class="margin-bottom-md">Korte specificaties</h2>
+            <table>
+                <tr>
+                    <td class="underline-dot">Aanbevolen voor gebruik</td>
+                    <td>Films, series & gaming</td>
+                </tr>
+                <tr>
+                    <td class="underline-dot">Formaat tablet</td>
+                    <td>Middelgroot</td>
+                </tr>
+                <tr>
+                    <td class="underline-dot">Snelheidsklasse</td>
+                    <td>Goed</td>
+                </tr>
+                <tr>
+                    <td class="underline-dot">Beeldschermkwaliteit</td>
+                    <td>Goed</td>
+                </tr>
+                <tr>
+                    <td class="underline-dot">Totale opslagcapaciteit</td>
+                    <td>64 GB</td>
+                </tr>
+            </table>
+            <a href="#" class="flex-center">
+                <svg class="icon--12 rotate-270 margin-right-xs">
+                    <use xlink:href="#icon-arrow"></use>
+                </svg>
+                Toon alle specificaties</a>
         </section>
 
         <section class="row grid-container margin-bottom-lg" id="product-information">
@@ -2767,7 +2800,7 @@
                         </svg>
                         Toon meer</a>
                 </div>
-                <div class="grid-container">
+                <div class="grid-container hide@sm">
                     <div class="col-4">
                         <div class="option-container">
                             <a class="option">
@@ -2806,7 +2839,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-4 hide@sm">
                 <h3>Korte specificaties</h3>
                 <table class="specs margin-bottom-sm">
                     <tr>
