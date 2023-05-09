@@ -80,6 +80,8 @@ body {
 a {
     font-size: 13px;
     color: var(--color-cool-blue);
+    cursor: pointer;
+    text-decoration: none;
 }
 
 a:hover {
@@ -189,11 +191,6 @@ a:hover {
 
 .justify-space-between {
     justify-content: space-between;
-}
-
-a {
-    text-decoration: none;
-    cursor: pointer;
 }
 
 button {
@@ -307,8 +304,12 @@ button {
     height: 20px;
 }
 
-.right {
+.rotate-270 {
     transform: rotate(270deg);
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
 }
 
 .icon__search {
@@ -779,7 +780,8 @@ input[type="checkbox"] {
 
 .gallery__thumbnail-container {
     display: flex;
-    margin-left: -5px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .gallery__thumbnail {
@@ -791,8 +793,7 @@ input[type="checkbox"] {
     padding: 9px;
     font-size: 13px;
     cursor: pointer;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 9%;
 }
 
 .gallery__thumbnail:hover {
@@ -1614,11 +1615,6 @@ input[type="checkbox"] {
     border-bottom: 3px solid var(--color-cool-blue);
 }
 
-.header-bottom__navigation a {
-    color: var(--color-cool-blue);
-    text-decoration: none;
-}
-
 .header-bottom__navigation__dropdown_category {
     display: none;
     position: absolute;
@@ -1695,6 +1691,12 @@ input[type="checkbox"] {
         margin-right: 10px;
         margin-left: 10px;
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .hide\@lg {
+        display: none;
     }
 }
 
@@ -1809,5 +1811,14 @@ input[type="checkbox"] {
 
     .card h2 {
         font-size: 1.3em;
+    }
+
+    .main-content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .hide\@sm {
+        display: none;
     }
 }
