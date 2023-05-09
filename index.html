@@ -2,54 +2,59 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Coolblue - Alles voor een glimlach</title>
 </head>
 
 <body>
-    <div class="overlay"></div>
     <header class="header">
+        <div class="overlay"></div>
         <div class="header-top flex">
             <button class="header-top__nav-toggle">
                 <span class="header-top__nav-toggle__hamburger"></span>
                 <div class="mobile-menu">
                     <div class="mobile-menu__top">
                         <div class="mobile-menu__top__title">Menu</div>
-                        <svg class="icon-close js-close" viewbox="0 0 48 48">
+                        <svg class="icon--20 margin-right-sm js-close">
                             <use xlink:href="#icon-close"></use>
                         </svg>
                     </div>
                     <div class="mobile-menu__container">
+                        <div class="mobile-menu__category__item all-categories">
+                            <svg class="icon icon--14 icon__arrow">
+                                <use xlink:href="#icon-arrow"></use>
+                            </svg>
+                            Alle categorieën
+                        </div>
                         <div class="mobile-menu__categories">
                             <div class="mobile-menu__category" data-category="1" data-level="1">
                                 <div class="mobile-menu__category__content">
-                                    <img src="images/laptop.png">
+                                    <div class="image-container">
+                                        <img src="images/laptop.avif">
+                                    </div>
                                     <div class="mobile-menu__category__title">Computers & tablets</div>
-                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                    <svg class="icon icon--14 icon__arrow">
                                         <use xlink:href="#icon-arrow"></use>
                                     </svg>
                                 </div>
 
                                 <div class="mobile-menu__category__submenu" data-category="1" data-level="2">
                                     <div class="mobile-menu__category__submenu__inner">
-                                        <div class="mobile-menu__category__item all-categories">
-                                            <svg class="icon arrow" viewbox="0 0 500 500">
-                                                <use xlink:href="#icon-arrow"></use>
-                                            </svg>
-                                            Alle categorieën
-                                        </div>
                                         <div class="mobile-menu__category__submenu__container">
                                             <h4>Computers & tablets</h4>
                                             <div class="mobile-menu__category__submenu__items">
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Laptops, desktops & monitoren</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
-                                                    <div class="mobile-menu__category__submenu__item__submenu" data-category="1" data-level="3">
-                                                        <div class="mobile-menu__category__item submenu" data-submenu="1" data-level="4">
-                                                            <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <div class="mobile-menu__category__submenu__item__submenu"
+                                                        data-category="1" data-level="3">
+                                                        <div class="mobile-menu__category__item submenu"
+                                                            data-submenu="1" data-level="4">
+                                                            <svg class="icon icon--14 icon__arrow">
                                                                 <use xlink:href="#icon-arrow"></use>
                                                             </svg>
                                                             Computers & tablets
@@ -58,49 +63,49 @@
                                                         <div class="mobile-menu__category__submenu__items">
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Laptops</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Desktops PC's</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Monitoren</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Schoudertassen</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Laptopstandaarden</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Software</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Public displays</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Tweedekans laptops</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
@@ -109,43 +114,43 @@
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Zakelijk</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Tablets & e-readers</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Gaming</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Printers & randapparatuur</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Geheugen & opslag</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Netwerk & internet</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Computer onderdelen</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
@@ -156,32 +161,28 @@
                             </div>
                             <div class="mobile-menu__category" data-category="2" data-level="1">
                                 <div class="mobile-menu__category__content">
-                                    <img src="images/tv.png">
+                                    <div class="image-container">
+                                        <img src="images/tv.avif">
+                                    </div>
                                     <div class="mobile-menu__category__title">Beeld & geluid</div>
-                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                    <svg class="icon icon--14 icon__arrow">
                                         <use xlink:href="#icon-arrow"></use>
                                     </svg>
                                 </div>
 
                                 <div class="mobile-menu__category__submenu" data-category="2" data-level="2">
                                     <div class="mobile-menu__category__submenu__inner">
-                                        <div class="mobile-menu__category__item all-categories">
-                                            <svg class="icon arrow" viewbox="0 0 500 500">
-                                                <use xlink:href="#icon-arrow"></use>
-                                            </svg>
-                                            Alle categorieën
-                                        </div>
                                         <div class="mobile-menu__category__submenu__container">
                                             <h4>Beeld & geluid</h4>
                                             <div class="mobile-menu__category__submenu__items">
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Televisies & beamers</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                     <div class="mobile-menu__category__submenu__item__submenu">
                                                         <div class="mobile-menu__category__item submenu">
-                                                            <svg class="icon arrow" viewbox="0 0 500 500">
+                                                            <svg class="icon icon--14 icon__arrow">
                                                                 <use xlink:href="#icon-arrow"></use>
                                                             </svg>
                                                             Beeld & geluid
@@ -190,37 +191,37 @@
                                                         <div class="mobile-menu__category__submenu__items">
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Televisies</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Tv beugels</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Afstandsbedieningen</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Beamers</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Projectieschermen</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
                                                             <div class="mobile-menu__category__submenu__item">
                                                                 <p>Beamerbeugels</p>
-                                                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                                                <svg class="icon icon--14 icon__arrow">
                                                                     <use xlink:href="#icon-arrow"></use>
                                                                 </svg>
                                                             </div>
@@ -229,43 +230,43 @@
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Televisie accessoires</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Audio voor onderweg</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Speakers en boxen</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Radio's en hifi</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Home cinema</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>DJ gear</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="mobile-menu__category__submenu__item">
                                                     <p>Muziekinstrumenten, DJ en Studio gear</p>
-                                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                                    <svg class="icon icon--14 icon__arrow">
                                                         <use xlink:href="#icon-arrow"></use>
                                                     </svg>
                                                 </div>
@@ -276,81 +277,99 @@
                             </div>
                             <div class="mobile-menu__category" data-category="3">
                                 <div class="mobile-menu__category__content">
-                                    <img src="images/iphone.png">
+                                    <div class="image-container">
+                                        <img src="images/phone.avif">
+                                    </div>
                                     <div class="mobile-menu__category__title">Telefonie</div>
-                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                    <svg class="icon icon--14 icon__arrow">
                                         <use xlink:href="#icon-arrow"></use>
                                     </svg>
                                 </div>
                             </div>
                             <div class="mobile-menu__category" data-category="4">
                                 <div class="mobile-menu__category__content">
-                                    <img src="images/tv.png">
+                                    <div class="image-container">
+                                        <img src="images/huishouden.avif">
+                                    </div>
                                     <div class="mobile-menu__category__title">Huishouden & wonen</div>
-                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                    <svg class="icon icon--14 icon__arrow">
                                         <use xlink:href="#icon-arrow"></use>
                                     </svg>
                                 </div>
                             </div>
-                            <div class="mobile-menu__category">
+                            <div class="mobile-menu__category" data-category="5">
                                 <div class="mobile-menu__category__content">
-                                    <img src="images/laptop.png">
+                                    <div class="image-container">
+                                        <img src="images/keuken.avif">
+                                    </div>
                                     <div class="mobile-menu__category__title">Keuken</div>
-                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                    <svg class="icon icon--14 icon__arrow">
                                         <use xlink:href="#icon-arrow"></use>
                                     </svg>
                                 </div>
                             </div>
-                            <div class="mobile-menu__category">
+                            <div class="mobile-menu__category" data-category="6">
                                 <div class="mobile-menu__category__content">
-                                    <img src="images/iphone.png">
+                                    <div class="image-container">
+                                        <img src="images/sport.avif">
+                                    </div>
                                     <div class="mobile-menu__category__title">Sport & verzorging</div>
-                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                    <svg class="icon icon--14 icon__arrow">
                                         <use xlink:href="#icon-arrow"></use>
                                     </svg>
                                 </div>
                             </div>
-                            <div class="mobile-menu__category">
+                            <div class="mobile-menu__category" data-category="7">
                                 <div class="mobile-menu__category__content">
-                                    <img src="images/tv.png">
+                                    <div class="image-container">
+                                        <img src="images/foto.avif">
+                                    </div>
                                     <div class="mobile-menu__category__title">Foto & video</div>
-                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                    <svg class="icon icon--14 icon__arrow">
                                         <use xlink:href="#icon-arrow"></use>
                                     </svg>
                                 </div>
                             </div>
-                            <div class="mobile-menu__category">
+                            <div class="mobile-menu__category" data-category="8">
                                 <div class="mobile-menu__category__content">
-                                    <img src="images/laptop.png">
+                                    <div class="image-container">
+                                        <img src="images/navigatie.avif">
+                                    </div>
                                     <div class="mobile-menu__category__title">Navigatie, reizen & fashion</div>
-                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                    <svg class="icon icon--14 icon__arrow">
                                         <use xlink:href="#icon-arrow"></use>
                                     </svg>
                                 </div>
                             </div>
-                            <div class="mobile-menu__category">
+                            <div class="mobile-menu__category" data-category="9">
                                 <div class="mobile-menu__category__content">
-                                    <img src="images/iphone.png">
+                                    <div class="image-container">
+                                        <img src="images/tuin.avif">
+                                    </div>
                                     <div class="mobile-menu__category__title">Tuin & klussen</div>
-                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                    <svg class="icon icon--14 icon__arrow">
                                         <use xlink:href="#icon-arrow"></use>
                                     </svg>
                                 </div>
                             </div>
-                            <div class="mobile-menu__category">
+                            <div class="mobile-menu__category" data-category="10">
                                 <div class="mobile-menu__category__content">
-                                    <img src="images/tv.png">
+                                    <div class="image-container">
+                                        <img src="images/iphone.png">
+                                    </div>
                                     <div class="mobile-menu__category__title">Coolblue Energie</div>
-                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                    <svg class="icon icon--14 icon__arrow">
                                         <use xlink:href="#icon-arrow"></use>
                                     </svg>
                                 </div>
                             </div>
-                            <div class="mobile-menu__category">
+                            <div class="mobile-menu__category" data-category="11">
                                 <div class="mobile-menu__category__content">
-                                    <img src="images/laptop.png">
+                                    <div class="image-container">
+                                        <img src="images/acties.avif">
+                                    </div>
                                     <div class="mobile-menu__category__title">Acties</div>
-                                    <svg class="icon arrow" viewbox="0 0 500 500">
+                                    <svg class="icon icon--14 icon__arrow">
                                         <use xlink:href="#icon-arrow"></use>
                                     </svg>
                                 </div>
@@ -362,20 +381,15 @@
                                 <div class="mobile-menu__category__content">
                                     <div>Taal: Nederlands (NL)</div>
                                 </div>
-                                <svg class="icon arrow" viewbox="0 0 500 500">
+                                <svg class="icon icon--14 icon__arrow">
                                     <use xlink:href="#icon-arrow"></use>
                                 </svg>
                             </div>
                             <div class="mobile-menu__item">Mijn Coolblue</div>
                             <div class="mobile-menu__item">Klantenservice</div>
                             <div class="mobile-menu__item">Zakelijk</div>
-
                         </div>
-
                     </div>
-
-
-
                 </div>
             </button>
             <div class="header-top_logo_container">
@@ -384,7 +398,7 @@
             <div class="header-top__navigation padding-sm js-open">Bekijk hele
                 <div class="flex">
                     <p><strong>assortiment</strong></p>
-                    <svg class="icon arrow" viewbox="0 0 500 500">
+                    <svg class="icon icon--14 icon__arrow">
                         <use xlink:href="#icon-arrow"></use>
                     </svg>
                 </div>
@@ -1244,7 +1258,7 @@
                     <div class="searchbar__input__container">
                         <input class="searchbar__input" placeholder="Zoeken naar...">
                         <div class="icon-container">
-                            <svg class="icon search" viewbox="0 0 500 500">
+                            <svg class="icon--20 icon__search">
                                 <use xlink:href="#icon-search"></use>
                             </svg>
                         </div>
@@ -1296,11 +1310,11 @@
                     <div class="user__language short padding-md js-open">EN</div>
                 </a>
                 <button class="user__account container flex align-center padding-sm js-open">
-                    <svg class="icon person" viewbox="0 0 48 48">
+                    <svg class="icon">
                         <use xlink:href="#icon-person"></use>
                     </svg>
                     <div class="user__account__info flex align-center">Account
-                        <svg class="icon arrow" viewbox="0 0 500 500">
+                        <svg class="icon icon--14 icon__arrow">
                             <use xlink:href="#icon-arrow"></use>
                         </svg>
                     </div>
@@ -1311,15 +1325,15 @@
                     </div>
                 </button>
                 <button href="#" class="user__wishlist padding-sm">
-                    <svg class="icon heart" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon-heart"></use>
                     </svg>
                 </button>
                 <button href="#" class="user__cart container flex padding-sm js-open">
-                    <svg class="icon cart" viewbox="0 0 48 48">
+                    <svg class="icon">
                         <use xlink:href="#icon-cart"></use>
                     </svg>
-                    <svg class="icon arrow" viewbox="0 0 500 500">
+                    <svg class="icon icon--14 icon__arrow">
                         <use xlink:href="#icon-arrow"></use>
                     </svg>
                     <div class="user__cart__dropdown">
@@ -2181,72 +2195,332 @@
                 </li>
             </ul>
         </nav>
-
     </header>
 
+    <div class="usp-bar margin-bottom-sm">
+        <div class="usp-bar-inner">
+            <div class="usp-bar__items">
+                <a class="usp-bar__item" href="#">
+                    <svg class="icon--16 icon__usp">
+                        <use xlink:href="#icon-arrow-usp"></use>
+                    </svg>
+                    <div>Voor <span class="orange">23.59 uur</span> besteld, morgen <span class="orange">gratis</span>
+                        bezorgd</div>
+                </a>
+                <a class="usp-bar__item" href="#">
+                    <svg class="icon--16 icon__usp">
+                        <use xlink:href="#icon-arrow-usp"></use>
+                    </svg>
+                    <div><span class="orange">Gratis</span> ruilen</div>
+                </a>
+                <a class="usp-bar__item" href="#">
+                    <svg class="icon--16 icon__usp">
+                        <use xlink:href="#icon-arrow-usp"></use>
+                    </svg>
+                    <div>Ophalen in <span class="orange">14 winkels</span> </div>
+                </a>
+                <a class="usp-bar__item" href="#">
+                    <svg class="icon--16 icon__usp">
+                        <use xlink:href="#icon-arrow-usp"></use>
+                    </svg>
+                    <div>Onze app</div>
+                </a>
+                <a class="usp-bar__item" href="#">
+                    <svg class="icon--16 icon__usp">
+                        <use xlink:href="#icon-arrow-usp"></use>
+                    </svg>
+                    <div><span class="orange">Beste</span> webwinkel 2022</div>
+                </a>
+            </div>
+            <div class="usp-bar__menu-items">
+                <a class="usp-bar__menu-item padding" href="#">Zakelijk</a>
+                <a class="usp-bar__menu-item padding" href="#">Winkels</a>
+                <a class="usp-bar__menu-item" href="#">Klantenservice</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="row">
+            <div class="grid-container">
+                <div class="grid-item col-6">
+                    <div class="card card--blue">
+                        <div class="card_content">
+                            <h2>ONWEERST</h2>
+                            <h2>AANBIEDINGEN<span class="dot">.</span></h2>
+                        </div>
+                        <img class="img img-big" src="images/acties.avif">
+                    </div>
+                </div>
+                <div class="grid-item col-6">
+                    <a href="pdp.html" class="card card--light">
+                            <div class="card_content">
+                                <h2>Onze keuze</h2>
+                                <h2>AANBIEDINGEN</h2>
+                                <p>tekst subtekst</p>
+                            </div>
+                            <img class="img img-big" src="images/acties.avif">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="grid-container">
+                <div class="grid-item col-4">
+                    <div class="card card--light">
+                        <div class="card_content">
+                            <h2>Coolblue's keuze</h2>
+                            <h2>AANBIEDINGEN</h2>
+                            <p>tekst subtekst</p>
+
+                        </div>
+                        <img class="img img--small" src="images/acties.avif">
+                    </div>
+                </div>
+                <div class="grid-item col-4">
+                    <div class="card card--light">
+                        <div class="card_content">
+                            <h2>Coolblue's keuze</h2>
+                            <h2>AANBIEDINGEN</h2>
+                            <p>tekst subtekst</p>
+
+                        </div>
+                        <img class="img img--small" src="images/acties.avif">
+                    </div>
+                </div>
+                <div class="grid-item col-4">
+                    <div class="card card--light">
+                        <div class="card_content">
+                            <h2>Coolblue's keuze</h2>
+                            <h2>AANBIEDINGEN</h2>
+                            <p>tekst subtekst subtekst subtekst subtekst subtekst subtekst subtekst subtekst subtekst subtekst subtekst subtekst  </p>
+                        </div>
+                        <img class="img img--small" src="images/acties.avif">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="grid-container">
+                <div class="grid-item col-12">
+                    <div class="usp-bar margin-bottom-sm">
+                        <div class="usp-bar-inner">
+                            <div class="usp-bar__items">
+                                <a class="usp-bar__item" href="#">
+                                    <svg class="icon--16 icon__usp" viewbox="0 0 48 48">
+                                        <use xlink:href="#icon-arrow-usp"></use>
+                                    </svg>
+                                    <div>Klantbeoordeling <span class="orange"> 9,1/10</span></div>
+                                </a>
+                                <a class="usp-bar__item" href="#">
+                                    <svg class="icon--16 icon__usp" viewbox="0 0 48 48">
+                                        <use xlink:href="#icon-arrow-usp"></use>
+                                    </svg>
+                                    <div><span class="orange">450.025</span> vind-ik-leuks</div>
+                                </a>
+                                <a class="usp-bar__item" href="#">
+                                    <svg class="icon--16 icon__usp" viewbox="0 0 48 48">
+                                        <use xlink:href="#icon-arrow-usp"></use>
+                                    </svg>
+                                    <div>7 dagen per week<span class="orange"> gratis</span> thuisbezorgd</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row margin-bottom-sm">
+            <h3 class="margin-bottom-sm">Blader door onze categorieën</h3>
+            <div class="grid-container items carousel-slider" id="slides-container">
+                <div class="carousel-item col-2">
+                    <div class="card card--small card--light">
+                        <div class="img-container">
+                            <img class="img-small" src="images/laptop.avif">
+                        </div>
+                        <h2 class="card_title">Computers & tablets</h2>
+                    </div>
+                </div>
+                <div class="carousel-item col-2">
+                    <div class="card card--small card--light">
+                        <div class="img-container">
+                            <img class="img--small" src="images/tv.avif">
+                        </div>
+                        <h2 class="card_title">Beeld & geluid</h2>
+                    </div>
+                </div>
+                <div class="carousel-item col-2">
+                    <div class="card card--small card--light">
+                        <div class="img-container">
+                            <img class="img--small" src="images/phone.avif">
+                        </div>
+                        <h2 class="card_title">Telefonie</h2>
+                    </div>
+                </div>
+                <div class="carousel-item col-2">
+                    <div class="card card--small card--light">
+                        <div class="img-container">
+                            <img class="img--small" src="images/huishouden.avif">
+                        </div>
+                        <h2 class="card_title">Huishouden & wonen</h2>
+                    </div>
+                </div>
+                <div class="carousel-item col-2">
+                    <div class="card card--small card--light">
+                        <div class="img-container">
+                            <img class="img--small" src="images/keuken.avif">
+                        </div>
+                        <h2 class="card_title">Keuken</h2>
+                    </div>
+                </div>
+                <div class="carousel-item col-2">
+                    <div class="card card--small card--light">
+                        <div class="img-container">
+                            <img class="img--small" src="images/sport.avif">
+                        </div>
+                        <h2 class="card_title">Sport & verzorging</h2>
+                    </div>
+                </div>
+                <div class="carousel-item col-2">
+                    <div class="card card--small card--light">
+                        <div class="img-container">
+                            <img class="img--small" src="images/sport.avif">
+                        </div>
+                        <h2 class="card_title">Gaming</h2>
+                    </div>
+                </div>
+                <div class="carousel-item col-2">
+                    <div class="card card--small card--light">
+                        <div class="img-container">
+                            <img class="img--small" src="images/acties.avif">
+                        </div>
+                        <h2 class="card_title">Aanbiedingen</h2>
+                    </div>
+                </div>
+                <div class="carousel-item col-2">
+                    <div class="card card--small card--light">
+                        <div class="img-container">
+                            <img class="img--small" src="images/acties.avif">
+                        </div>
+                        <h2 class="card_title">Tweedekans</h2>
+                    </div>
+                </div>
+                <div class="carousel-item col-2">
+                    <div class="card card--small card--light">
+                        <div class="img-container">
+                            <img class="img--small" src="images/tuin.avif">
+                        </div>
+                        <h2 class="card_title">Tuin & klussen</h2>
+                    </div>
+                </div>
+                <div class="carousel-item col-2">
+                    <div class="card card--small card--light">
+                        <div class="img-container">
+                            <img class="img--small" src="images/foto.avif">
+                        </div>
+                        <h2 class="card_title">Foto & video</h2>
+                    </div>
+                </div>
+                <div class="carousel-item col-2">
+                    <div class="card card--small card--light">
+                        <div class="img-container">
+                            <img class="img--small" src="images/navigatie.avif">
+                        </div>
+                        <h2 class="card_title">Navigatie & reizen</h2>
+                    </div>
+                </div>
+            </div>
+            <a href="#">Bekijk het volledige assortiment</a>
+        </div>
+        <div class="row">
+            <div class="grid-container">
+                <div class="col col-8 centered">
+                    <div class="card card--blue">
+                        <div class="card_content">
+                            <h2>ONWEERST</h2>
+                            <h2>AANBIEDINGEN<span class="dot">.</span></h2>
+                        </div>
+                        <img class="img img--big" src="images/acties.avif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div></div>
+    </footer>
+
+
     <svg>
-        <symbol id="icon-heart">
+        <symbol id="icon-heart" viewBox="0 0 48 48">
             <path
                 d="M27 13.3c0-.5.3-1.1 1-1.9.6-.8 1.5-1.4 2.5-1.9 1-.4 2-.5 3-.3 1.1.2 2.4.9 3.8 2.4 1.8 1.9 2 4.2 1.4 7-.8 2.9-2.5 5.8-4.2 8.2-1.7 2.5-4 5.8-6.3 8.4a24 24 0 0 1-3 3 5 5 0 0 1-1.2.8 5 5 0 0 1-1.2-.7 24 24 0 0 1-3-3.1c-2.3-2.6-4.6-5.9-6.3-8.4a26.6 26.6 0 0 1-4.2-8.2c-.7-2.8-.3-5.1 1.4-7a7.3 7.3 0 0 1 3.7-2.4 5 5 0 0 1 3.1.3c1 .5 1.9 1.1 2.5 2 .7.7 1 1.3 1 1.8a3 3 0 0 0 3 2.7 3 3 0 0 0 3-2.7ZM24 45c2 0 3.7-1 4.9-2 1.3-1 2.6-2.4 3.9-3.9 2.5-2.9 5-6.4 6.7-8.8 1.8-2.6 4-6.3 5-10.3 1-4 .8-8.7-2.8-12.5a13.3 13.3 0 0 0-6.9-4.1 11 11 0 0 0-6.7.6c-1.6.7-3 1.7-4.1 2.9A12.7 12.7 0 0 0 19.9 4a11 11 0 0 0-6.7-.6A13 13 0 0 0 3.6 20c1 3.9 3.1 7.6 5 10.2 1.7 2.4 4.1 6 6.6 8.8 1.3 1.5 2.6 2.8 4 3.9 1.1 1 2.8 2 4.8 2"
                 fill="currentColor"></path>
         </symbol>
-        <symbol id="icon-cart">
+        <symbol id="icon-cart" viewbox="0 0 48 48">
             <path
                 d="M0 6a3 3 0 0 1 3-3h7.5a3 3 0 0 1 2.944 2.422L17.678 27h20.91l3.46-19.103a3 3 0 0 1 5.904 1.07l-3.907 21.568A3 3 0 0 1 41.093 33H15.209a3 3 0 0 1-2.944-2.422L8.031 9H3a3 3 0 0 1-3-3Z"
                 fill="currentColor">
             </path>
             <path d="M23 40.5a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM41 40.5a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Z"
                 fill="currentColor"></path>
-
-            <!-- <path
-                d="M16.5131 6L7.48727 6C7.29999 6 7.11329 6.02105 6.9307 6.06274C5.58464 6.37013 4.74263 7.71051 5.05002 9.05657L5.96345 13.0566C6.2231 14.1936 7.23443 15 8.40071 15L15.5996 15C16.7659 15 17.7772 14.1936 18.0369 13.0566L18.9503 9.05657C18.992 8.87398 19.0131 8.68729 19.0131 8.5C19.0131 7.11929 17.8938 6 16.5131 6ZM7.37596 8.01255C7.41248 8.00421 7.44982 8 7.48727 8L16.5131 8C16.7892 8 17.0131 8.22386 17.0131 8.5C17.0131 8.53746 17.0089 8.5748 17.0005 8.61131L16.0871 12.6113C16.0352 12.8387 15.8329 13 15.5996 13L8.40071 13C8.16745 13 7.96519 12.8387 7.91326 12.6113L6.99982 8.61131C6.93835 8.3421 7.10675 8.07403 7.37596 8.01255Z"
-                fill="currentColor" />
-            <path
-                d="M3.49044 2L2 2C1.44772 2 1 1.55228 1 1C1 0.447715 1.44772 0 2 0L4.28977 0C4.75718 0 5.16223 0.323776 5.2652 0.779696L7.97543 12.7797C8.0971 13.3184 7.75902 13.8538 7.2203 13.9754C6.68159 14.0971 6.14624 13.759 6.02457 13.2203L3.49044 2Z"
-                fill="currentColor" />
-            <path
-                d="M10 17.25C10 18.2165 9.2165 19 8.25 19C7.2835 19 6.5 18.2165 6.5 17.25C6.5 16.2835 7.2835 15.5 8.25 15.5C9.2165 15.5 10 16.2835 10 17.25Z"
-                fill="currentColor" />
-            <patharrow
-                d="M17 17.25C17 18.2165 16.2165 19 15.25 19C14.2835 19 13.5 18.2165 13.5 17.25C13.5 16.2835 14.2835 15.5 15.25 15.5C16.2165 15.5 17 16.2835 17 17.25Z"
-                fill="currentColor" /> -->
         </symbol>
-        <symbol id="icon-person">
+        <symbol id="icon-person" viewbox="0 0 48 48">
             <path
                 d="M10.9179 37.9663C9.64698 39.4859 8.96481 41.364 8.7516 42.5367C8.45521 44.1668 6.89346 45.248 5.26333 44.9516C3.6332 44.6552 2.55199 43.0935 2.84838 41.4633C3.21295 39.4582 4.26411 36.5697 6.31543 34.117C8.43468 31.5831 11.6841 29.4667 16.2 29.4667H31.8C36.3159 29.4667 39.5653 31.5831 41.6846 34.117C43.7359 36.5697 44.787 39.4582 45.1516 41.4633C45.448 43.0935 44.3668 44.6552 42.7366 44.9516C41.1065 45.248 39.5448 44.1668 39.2484 42.5367C39.0352 41.364 38.353 39.4859 37.0821 37.9663C35.8791 36.528 34.2175 35.4667 31.8 35.4667H16.2C13.7825 35.4667 12.1209 36.528 10.9179 37.9663Z"
                 fill="currentColor"></path>
             <path fill-rule="evenodd"
                 d="M24 21.2667C27.3873 21.2667 30.1333 18.5207 30.1333 15.1333C30.1333 11.746 27.3873 9 24 9C20.6126 9 17.8667 11.746 17.8667 15.1333C17.8667 18.5207 20.6126 21.2667 24 21.2667ZM24 27.2667C30.701 27.2667 36.1333 21.8344 36.1333 15.1333C36.1333 8.43228 30.701 3 24 3C17.2989 3 11.8667 8.43228 11.8667 15.1333C11.8667 21.8344 17.2989 27.2667 24 27.2667Z"
                 fill="currentColor"></path>
-
-            <!-- <path
-                d="M4,20 C4,17 8,17 10,15 C11,14 8,14 8,9 C8,5.667 9.333,4 12,4 C14.667,4 16,5.667 16,9 C16,14 13,14 14,15 C16,17 20,17 20,20" /> -->
         </symbol>
-        <symbol id="icon-search">
+        <symbol id="icon-search" viewbox="0 0 500 500">
             <path
                 d="M481.8,453l-140-140.1c27.6-33.1,44.2-75.4,44.2-121.6C386,85.9,299.5,0.2,193.1,0.2S0,86,0,191.4s86.5,191.1,192.9,191.1    c45.2,0,86.8-15.5,119.8-41.4l140.5,140.5c8.2,8.2,20.4,8.2,28.6,0C490,473.4,490,461.2,481.8,453z M41,191.4    c0-82.8,68.2-150.1,151.9-150.1s151.9,67.3,151.9,150.1s-68.2,150.1-151.9,150.1S41,274.1,41,191.4z"
                 fill="currentColor" />
         </symbol>
-        <symbol id="icon-arrow">
+        <symbol id="icon-arrow" viewbox="0 0 500 500">
             <path xmlns="http://www.w3.org/2000/svg"
                 d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751   c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0   c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"
                 fill="currentColor" />
         </symbol>
-        <symbol id="icon-check">
-            <path xmlns="http://www.w3.org/2000/svg"
-                d="M256,0C114.84,0,0,114.842,0,256s114.84,256,256,256s256-114.842,256-256S397.16,0,256,0z M256,462.452    c-113.837,0-206.452-92.614-206.452-206.452S142.163,49.548,256,49.548S462.452,142.163,462.452,256S369.837,462.452,256,462.452z"
-                fill="currentColor" />
-            <polygon xmlns="http://www.w3.org/2000/svg"
-                points="345.838,164.16 222.968,287.029 157.904,221.967 122.87,257.001 222.968,357.1 380.872,199.194   " />
-        </symbol>
-        <symbol id="icon-close">
+        <symbol id="icon-close" viewbox="0 0 48 48">
             <path fill="currentColor"
                 d="M14.536 7.464a5 5 0 1 0-7.072 7.072L16.93 24l-9.465 9.465a5 5 0 1 0 7.072 7.07L24 31.072l9.465 9.464a5 5 0 1 0 7.07-7.07L31.072 24l9.464-9.464a5 5 0 1 0-7.07-7.072L24 16.93l-9.464-9.465Z">
             </path>
         </symbol>
+        <symbol id="icon-arrow-usp" viewbox="0 0 48 48">
+            <path fill="currentColor"
+                d="M39.39 9.54a5 5 0 1 1 7.22 6.92L23.622 40.447A4.984 4.984 0 0 1 20.052 42a4.984 4.984 0 0 1-3.6-1.477L1.464 25.535a5 5 0 1 1 7.072-7.07l11.388 11.388L39.39 9.54Z">
+            </path>
+        </symbol>
+        <symbol id="icon-home" viewbox="0 0 48 48">
+            <path
+                d="M758.8 352L420.6 13.5c-18.2-18-50.2-18-68.4 0l-338 338c-19 19-19 49.6 0 68.4 19 19 49.5 19 68.3 0l304-304 304 304c9.4 9.4 21.7 14.2 34 14.2 12.5 0 25-4.7 34.3-14.2 19-19 19-49.4 0-68.3zM384.4 207L129 462.5v159.7c0 15.7 12.8 28.5 28.6 28.5h456c15.6 0 28.3-12.8 28.3-28.5V464.8L384 207.2z">
+            </path>
+        </symbol>
+        <symbol id="icon-info" viewbox="0 0 33 33">
+            <circle cx="16" cy="16" r="16"></circle>
+            <path d="M14 16a2 2 0 1 1 4 0v6a2 2 0 1 1-4 0v-6zM14 10a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" fill="#FFF">
+            </path>
+        </symbol>
+        <symbol id="icon-review" viewBox="0 0 99 99">
+            <circle fill="var(--color-green)" cx="49.5" cy="49.5" r="49.5"></circle>
+            <path fill="var(--color-green)" d="M49.5 99C77.5 99 99 76.8 99 49.5S77.5 0 49.5 0v99z"></path>
+            <path fill="var(--color-white)" d="M53.4 24.2l5 15.6s11.7-.2 16.4-.1c4 0 5.9 4.9 2.4 7.5-3.7 2.6-13.3 9.5-13.3 9.5L69 72.2c1.2 4-3.1 7-6.4 4.6L49.5 65.3 36.3 76.8c-3.4 2.4-7.6-.7-6.4-4.6l5.2-15.5-13.3-9.5c-3.1-2.2-2.1-7.4 2.4-7.5l16.4.1 4.9-15.6c1.4-4.1 6.7-3.7 7.9 0z"></path>
+        </symbol>
+        <symbol id="icon-review-half" viewBox="0 0 99 99">
+            <circle fill="var(--color-green)" cx="49.5" cy="49.5" r="49.5"></circle>
+            <path fill="var(--color-light-grey)" d="M49.5 99C77.5 99 99 76.8 99 49.5S77.5 0 49.5 0v99z"></path>
+            <path fill="var(--color-white)" d="M53.4 24.2l5 15.6s11.7-.2 16.4-.1c4 0 5.9 4.9 2.4 7.5-3.7 2.6-13.3 9.5-13.3 9.5L69 72.2c1.2 4-3.1 7-6.4 4.6L49.5 65.3 36.3 76.8c-3.4 2.4-7.6-.7-6.4-4.6l5.2-15.5-13.3-9.5c-3.1-2.2-2.1-7.4 2.4-7.5l16.4.1 4.9-15.6c1.4-4.1 6.7-3.7 7.9 0z"></path>
+        </symbol>
     </svg>
 
     <script type="text/javascript" src="app.js"></script>
+    <!-- <script type="text/javascript" src="slider.js"></script> -->
 
 </body>
 
