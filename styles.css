@@ -1795,14 +1795,18 @@ input[type="checkbox"] {
         grid-column: span 6;
     }
 
+    .col-3,
     .col-4,
+    .col-5,
     .col-6,
     .col-7,
     .col-8,
     .col-6.centered,
     .col-8.centered,
     .col-10.centered, 
-    .col-7 + .col-4 {
+    .col-7 + .col-4,
+    .col-5 + .col-6,
+    .col-3 + .col-8 {
         grid-column: span 12;
     }
 
