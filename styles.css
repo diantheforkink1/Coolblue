@@ -393,6 +393,20 @@ button {
     text-decoration: underline;
 }
 
+/* STICKY BAR */
+
+.sticky-bar {
+    position: fixed;
+    background-color: var(--color-white);
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 20px 10px 20px #888;
+}
+
 /* TOP NAVIGATION */
 
 .top-navigation {
