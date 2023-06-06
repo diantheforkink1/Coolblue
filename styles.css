@@ -429,6 +429,9 @@ button {
     display: flex;
     border-radius: var(--border-radius);
     padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
 }
 
 .card--small {
@@ -453,8 +456,7 @@ button {
 
 .card-img {
     width: 100%;
-    padding: 0px 20px;
-    box-sizing: border-box;
+    overflow: auto;
 }
 
 .card:hover {
@@ -530,12 +532,6 @@ button {
     border-color: var(--color-grey);
 } */
 
-/* IMG */
-
-img {
-    height: 100%;
-}
-
 /* BREADCRUMBS */
 
 .breadcrumb {
@@ -572,6 +568,7 @@ img {
 
 .option__img {
     padding: 0px 5px; 
+    height: 100%;
 }
 
 .option--full-width {
