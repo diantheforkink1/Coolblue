@@ -428,6 +428,45 @@ button {
 .card {
     display: flex;
     border-radius: var(--border-radius);
+    padding: 15px;
+}
+
+.card--small {
+    padding: 0px;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card--blue {
+    background-color: var(--color-cool-blue);
+    border: 1px solid var(--color-cool-blue);
+}
+
+.card--light {
+    border: 1px solid var(--color-light-grey);
+}
+
+.img-container {
+    background-color: var(--color-lighter-blue);
+    width: 100%;
+}
+
+.card-img {
+    width: 100%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    border-color: var(--color-grey);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+
+
+/* .card {
+    display: flex;
+    border-radius: var(--border-radius);
     align-items: center;
     justify-content: center;
     padding: 15px;
@@ -436,11 +475,6 @@ button {
 .card_content {
     color: var(--color-white);
     width: 40%;
-}
-
-.card__text {
-    padding: 5px 20px 15px 20px;
-    height: 100%;
 }
 
 .img--big {
@@ -467,7 +501,6 @@ button {
 .card--small {
     padding: 0px;
     flex-direction: column;
-    /* height: 100%; */
 }
 
 .img-container {
@@ -495,7 +528,7 @@ button {
 
 .card:hover {
     border-color: var(--color-grey);
-}
+} */
 
 /* IMG */
 
@@ -703,6 +736,10 @@ input[type="checkbox"] {
 
 .black {
     color: var(--color-black);
+}
+
+.white {
+    color: var(--color-white);
 }
 
 /* BUTTON */
