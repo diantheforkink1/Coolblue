@@ -210,6 +210,10 @@ button {
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .padding-sm {
     padding: var(--padding-sm);
 }
@@ -463,7 +467,7 @@ button {
 .card--small {
     padding: 0px;
     flex-direction: column;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .img-container {
@@ -695,6 +699,10 @@ input[type="checkbox"] {
 
 .blue {
     color: var(--color-cool-blue);
+}
+
+.black {
+    color: var(--color-black);
 }
 
 /* BUTTON */
