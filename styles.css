@@ -210,6 +210,10 @@ button {
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .padding-sm {
     padding: var(--padding-sm);
 }
@@ -424,27 +428,16 @@ button {
 .card {
     display: flex;
     border-radius: var(--border-radius);
-    align-items: center;
-    justify-content: center;
     padding: 15px;
-}
-
-.card_content {
-    color: var(--color-white);
-    width: 40%;
-}
-
-.card__text {
-    padding: 5px 20px 15px 20px;
+    width: 100%;
+    box-sizing: border-box;
     height: 100%;
 }
 
-.img--big {
-    width: 60%;
-}
-
-.img--small {
-    width: 50%;
+.card--small {
+    padding: 0px;
+    flex-direction: column;
+    height: 100%;
 }
 
 .card--blue {
@@ -456,47 +449,20 @@ button {
     border: 1px solid var(--color-light-grey);
 }
 
-.card--light h2, .card--light p {
-    color: var(--color-cool-blue);
-}
-
-.card--small {
-    padding: 0px;
-    flex-direction: column;
-    height: 100%;
-}
-
 .img-container {
     background-color: var(--color-lighter-blue);
     width: 100%;
 }
 
-.card--small img {
+.card-img {
     width: 100%;
-    object-fit: contain;
-    height: 145px;
-    object-position: bottom;
-} 
-
-.card--small .card_content {
-    width: 100%;
-    text-align: center;
-}
-
-.card--small .card_title {
-    font-size: 0.8em;
-    height: 30px;
-    margin-top: 10px;
+    overflow: auto;
 }
 
 .card:hover {
     border-color: var(--color-grey);
-}
-
-/* IMG */
-
-img {
-    height: 100%;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
 }
 
 /* BREADCRUMBS */
@@ -535,6 +501,7 @@ img {
 
 .option__img {
     padding: 0px 5px; 
+    height: 100%;
 }
 
 .option--full-width {
@@ -695,6 +662,14 @@ input[type="checkbox"] {
 
 .blue {
     color: var(--color-cool-blue);
+}
+
+.black {
+    color: var(--color-black);
+}
+
+.white {
+    color: var(--color-white);
 }
 
 /* BUTTON */
